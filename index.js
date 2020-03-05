@@ -27,7 +27,7 @@ client.on("message", (channel, userstate, message, self) => {
   let parsedM = message.split(" ");
   if (
     userstate.username === "streamelements" &&
-    message.includes("following")
+    message.includes("Thank you for following")
   ) {
     db.update("welcomes", n => n + 1).write();
     client.say(
