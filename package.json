@@ -1,0 +1,21 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "Just another bot to say hello to Prime's chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "opti21",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
