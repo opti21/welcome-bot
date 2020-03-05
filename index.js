@@ -12,8 +12,8 @@ const client = new tmi.Client({
     secure: true
   },
   identity: {
-    username: process.env.TWITCH_USER,
-    password: process.env.TWITCH_PASS
+    username: `${process.env.TWITCH_USER}`,
+    password: `${process.env.TWITCH_PASS}`
   },
   channels: ["theprimeagen"]
 });
