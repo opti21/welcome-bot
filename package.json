@@ -11,6 +11,7 @@
   "author": "opti21",
   "license": "ISC",
   "dependencies": {
+    "@types/tmi.js": "^1.4.0",
     "dotenv": "^8.2.0",
     "lowdb": "^1.0.0",
     "tmi.js": "^1.5.0"

@@ -32,7 +32,7 @@ client.on("message", (channel, userstate, message, self) => {
     db.update("welcomes", n => n + 1).write();
     client.say(
       channel,
-      `Welcome to Costco ${parsedM[4]} Sunny has small hands`
+      `primeagenGasm Welcome to Costco ${parsedM[4]} primeagenBig Sunny has small hands primeagenHands`
     );
   }
   if (parsedM[0] === "$tatus") {
