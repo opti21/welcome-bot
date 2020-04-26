@@ -15,7 +15,7 @@ const client = new tmi.Client({
     username: process.env.TWITCH_USER,
     password: process.env.TWITCH_PASS
   },
-  channels: ["theprimeagen"]
+  channels: ["opti_21"]
 });
 
 client.connect();
